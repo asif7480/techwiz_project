@@ -1,7 +1,7 @@
 import Logo from '../assests/images/logo/logo.png'
 import { NavLink } from 'react-router-dom'
 import './Navbar.css'
-import Main from './Main'
+// import Main from './Main'
 
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
                 </ul>
                 <button className='score-card-btn'>See Score Card</button>
             </nav>
-            <Main />
+            {/* <Main /> */}
         </header>
 
         </>
