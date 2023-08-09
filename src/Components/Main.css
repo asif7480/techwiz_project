@@ -1,0 +1,30 @@
+.main{
+    position: relative;
+}
+
+
+.text-container{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    /* background-color: aqua; */
+    width:550px;
+    padding: 25px;
+}
+h2{
+    font-size: 48px;
+    color: azure;
+}
+
+h1{
+    font-size: 60px;
+    color: #b6972d;
+}
+
+p{
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 20px;
+
+}
