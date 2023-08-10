@@ -1,0 +1,26 @@
+let score=[{
+  
+    "name": "Team A",
+    "points": "0",
+    "time": "1:50",
+}]
+
+let score1=[{
+  
+    "name": "Team B",
+    "points": "3",
+    "time": "1:40",
+}]
+
+let score2=[{
+  
+    "name": "Team C",
+    "points": "1",
+    "time": "1:05",
+}]
+let score3=[{
+  
+    "name": "Team D",
+    "points": "2",
+    "time": "1:10",
+}]

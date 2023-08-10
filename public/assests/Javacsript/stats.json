@@ -1,0 +1,40 @@
+let team1=[{
+    "name" : "Team A",
+    "position" : "1st",
+    "league" : "Premium League",
+    "totalmatches" : "20",
+    "wins" : "17",
+    "losses" : "1",
+    "draws" : "2",
+    "goals" : "40"
+}]
+let team2=[{
+    "name" : "Team B",
+    "position" : "2nd",
+    "league" : "Premium League",
+    "totalmatches" : "20",
+    "wins" : "15",
+    "losses" : "2",
+    "draws" : "3",
+    "goals" : "36"
+}]
+let team3=[{
+    "name" : "Team C",
+    "position" : "3rd",
+    "league" : "Premium League",
+    "totalmatches" : "20",
+    "wins" : "13",
+    "losses" : "5",
+    "draws" : "2",
+    "goals" : "30"
+}]
+let team4=[{
+    "name" : "Team D",
+    "position" : "4th",
+    "league" : "Premium League",
+    "totalmatches" : "20",
+    "wins" : "10",
+    "losses" : "5",
+    "draws" : "5",
+    "goals" : "25"
+}]

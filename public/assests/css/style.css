@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:wght@200;300;400;600;700&family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+*{
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 5.5rem;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --gloden: #b6972d;
+  --blaack: #000000;
+  --White: #ffffff;
+}
+
+
+
+
+
+
+/*-------------------
+Navbar
+----------------------*/
+.navbar{
+  background: linear-gradient( #000000,#b49126, to left); 
+  position: relative;
+  padding: 1rem 1rem;
+}
+
+.navbar-brand img{
+  height: 50px;
+  margin-left: -45%;
+}
+
+.navbar-dark .navbar-toggler {
+  color: var(--gloden);
+  border-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 12px;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  transition: 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: .5rem;
+}
+
+.navbar-nav .nav-item a.active,
+.navbar-nav .nav-item a:hover{
+  color: var(--gloden) !important;
+  background: var(--blaack);
+}
+
+.fixed-top {
+  position: fixed;
+  z-index: 1030;
+  right: 0;
+  left: 0;
+}
+
+.navbar .search-box{
+  position: relative;
+}
+
+button{
+  cursor: pointer;
+  width:150px;
+  height: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 2px;
+  border:none;
+  position: absolute;
+  transform: scale(0.9);
+  background: var(--blaack);
+  color: var(--White);
+  right: 5%;
+}
+
+/*----------------------------- Nav COLOR CHANGE SECTION START  --------------------------------*/
+
+.navbar-white {
+  background: linear-gradient(to left, #b49126, #000000);
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+  border-radius: 0px;
+}
+
+.trans-navigation .navbar-brand h4,
+.trans-navigation .navbar-brand h3 {
+  color: var(--white);
+}
+
+/*----------------------------- Nav COLOR CHANGE SECTION END--------------------------------*/
+
+
+/*-------------------------
+Home Banner
+-----------------------------*/
+#banner {
+  align-items: center;
+  position: relative;
+  background: url("../images/banner/Banner.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 47vw;
+}
+
+.banner-content {
+  text-align: justify;
+  align-items: center;
+  position: absolute;
+  width: 33%;
+  top: 15%;
+  left: 1.5%;
+  padding: 15px;
+}
+
+.banner-content h3 {
+  color: var(--gloden);
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: -1%;
+}
+
+.banner-content h1 span {
+  color: var(--White);
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.banner-content p {
+  padding-top: 1px;
+  color: var(--White);
+  font-size: 18px;
+  margin-top: 4%;
+  line-height: 30px;
+}
+
+
+/*----------------------
+ FOOTER
+-----------------------*/
+
+#footer {
+  background: url("../images/banner/foooter.jpg");
+  background-size: cover;
+}
+  
+#footer {
+  padding: 80px 0px;
+  position: relative;
+}
+
+#footer .footer-brand {
+  font-size: 30px;
+}
+
+#footer .footer-links {
+  padding-left: 0;
+  list-style-type: none;
+}
+  
+.footer-widget p {
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 32px;
+  font-size: 14px;
+}
+
+.footer-widget h3 {
+  color: #21c87a;
+  margin-bottom: 30px;
+}
+  
+.footer-links a {
+  color: #fff;
+  line-height: 38px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.footer-links i {
+  width: 25px;
+}
+  
+a{
+  text-decoration: none;
+}
+
+.footer-copy {
+  color: #888;
+  font-size: 2rem;
+  position: relative;
+  margin-bottom: 0;
+  margin-left: 35%;
+  display: inline-block;
+}
+  
+  
+  .current-year {
+  color: var(--gloden) !important;
+  }
+  
+
+
+
+/*----------------------------- SCROLL TO TOP --------------------------------*/
+.scroll-to-top {
+  position: fixed;
+  content: "";
+  right: 30px;
+  bottom: 50px;
+  z-index: 999;
+  background: var(--gloden);
+  color: var(--White) !important;
+  border-radius: 100%;
+  opacity: 0;
+  text-decoration: none;
+}
+
+.scroll-to-top i {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  display: block;
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+}
+
+.scroll-to-top:hover,
+.scroll-to-top:focus {
+  text-decoration: none;
+}
+
+.reveal {
+  transition: all 0.3s;
+  cursor: pointer;
+  opacity: 1;
+}
+
+
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+}

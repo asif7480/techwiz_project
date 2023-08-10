@@ -1,0 +1,50 @@
+let fteam1=[{
+  
+      "name": "David Johnson",
+      "formation": "GoalKeeper",
+},
+{
+  "name": "David Watson",
+  "formation": "Defender",
+},
+{
+  "name": "Alex Mitchell",
+  "formation": "Mid",
+},
+{
+  "name": "Sophie Williams",
+  "formation": "Forward",
+},
+{
+  "name": "James Miller",
+  "formation": "Defender",
+},
+      ]
+
+
+
+      let fteam2=[{
+  
+        "name": "Thomas Green",
+        "formation": "GoalKeeper",
+  },
+  {
+    "name": "Laura Johnson",
+    "formation": "Defender",
+  },
+  {
+    "name": "Ahmed Rahman",
+    "formation": "Mid",
+  },
+  {
+    "name": "Chloe Wilson",
+    "formation": "Forward",
+  },
+  {
+    "name": "Sophie Turner",
+    "formation": "Defender",
+  },
+        ]
+      
+
+      
