@@ -1,3 +1,6 @@
+.main{
+    position: relative;
+}
 
 .text-container{
     position: absolute;
@@ -8,6 +11,7 @@
     width:550px;
     padding: 25px;
 }
+
 h2{
     font-size: 48px;
     color: azure;
